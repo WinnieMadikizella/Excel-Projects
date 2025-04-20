@@ -3,6 +3,11 @@
 ## 1. Introduction
 Understanding sales performance, customer behavior, and product trends is crucial for growth and profitability in today’s competitive business environment. This analysis explores the sales data of BrightMart, a multinational retail company, from 2011 to 2016 through a structured data transformation, modeling, and visualization approach, key insights were derived to enhance sales performance and customer engagement.
 
+### Dataset
+You can find the dataset used in this project here:  
+[BrightMart Sales Data.xlsx](BrightMart%20Sales%20Analysis/BrightMart%20Sales%20Data.xlsx)
+
+
 ## 2. Objectives
 The primary objectives of this analysis were to:
 1. Evaluate overall sales performance and profitability trends.
@@ -45,7 +50,9 @@ To enable effective analysis, the data was structured using the **Star Schema ap
 - Imported the data into **Power Pivot** to manage relationships.
 - Established **one-to-many** relationships between the **dimension tables** and the **SalesFact** table using **primary and foreign keys**.
 
-![Data Relationships](./images/Data%20Relationship.JPG)
+
+![Data Relationship](screenshots/Data%20Relationship.JPG)
+
 
 ## 6. Analysis & Key Metrics
 The analysis focused on **key performance indicators (KPIs)** and deeper insights into **revenue trends, customer behavior, and regional and product performance**.
